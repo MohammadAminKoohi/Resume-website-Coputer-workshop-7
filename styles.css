@@ -1,0 +1,142 @@
+/* Reset some basic elements */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Styling */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Active navigation link */
+nav ul li a.active {
+    color: #e8491d;
+}
+
+/* Main content area styling */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p,
+footer a {
+    color: #fff;
+}
+
+/* Add some breathing room between text and images */
+img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Responsive Image inside the sections */
+section img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Headings styles */
+h1,
+h2 {
+    color: #333;
+}
+
+/* Link styles */
+a {
+    color: #e8491d;
+}
+
+/* Ensure the footer is not overlapping content */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Add styling for the biography image */
+#biography img {
+    width: 225px;
+    /* Set a fixed width */
+    height: 110px;
+    /* Set the height equal to the width to maintain aspect ratio */
+    border-radius: 50%;
+    /* Make the corners fully rounded */
+    object-fit: cover;
+    /* Ensures the image covers the area without being stretched */
+    display: block;
+    margin: 10px auto;
+    /* Centers the image and add some space around */
+}
+header {
+    text-align: center;
+    /* Center the text horizontally */
+    padding: 20px;
+    /* Add some padding for spacing inside the header */
+    background-color: #f8f8f8;
+    /* A light background color for the header */
+    margin-bottom: 20px;
+    /* Add some space below the header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    /* Increase the font size of the main heading */
+    color: #333333
